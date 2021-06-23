@@ -25,6 +25,7 @@ export default {
     padding: 15px 0px;
     border-bottom: 1px solid #cecece;
     display: flex;
+    font-size:1vw;
   }
 
   #left-nav-container{
