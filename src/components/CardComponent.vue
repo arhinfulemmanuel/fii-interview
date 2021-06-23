@@ -1,7 +1,7 @@
 <template>
   <div class="card">
     <div style="margin-bottom: 7px;font-weight: bolder">{{ this.title }}</div>
-    <div> <small style="color: #eaeaea">App ID: {{ this.appID }}...</small> </div>
+    <div> <small style="color: #eaeaea; word-wrap: break-word; ">App ID: {{ this.appID }}...</small> </div>
     <div>
       <button class="open-btn" @click="redirectTo()">Open</button>
     </div>
