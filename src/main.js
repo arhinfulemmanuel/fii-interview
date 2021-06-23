@@ -20,7 +20,6 @@ import {faChevronRight} from "@fortawesome/free-solid-svg-icons";
 import {faBell} from "@fortawesome/free-regular-svg-icons";
 import { faQuestionCircle } from '@fortawesome/free-regular-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
-// import NProgress from "vue-nprogress/src";
 
 // fa icons
 library.add(faSearch, faPlusCircle, faBars, faAddressCard,
@@ -31,23 +30,6 @@ library.add(faSearch, faPlusCircle, faBars, faAddressCard,
 
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 Vue.config.productionTip = false
-
-
-
-
-
-// router.beforeEach((to, from, next) => {
-//   if (to.name) {
-//     NProgress.start()
-//   }
-//   next()
-// })
-// router.afterEach(() => {
-//   NProgress.done()
-// })
-//
-
-
 
 new Vue({
   router,
